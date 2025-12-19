@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -29,7 +30,7 @@
             <h1>Lorenzo Amantea</h1>
             <p>Creo esperienze digitali pulite e funzionali con focus su semplicità e performance.</p>
             <div class="hero-cta">
-                <a href="#progetti" class="btn-contact">Vedi i miei lavori</a>
+                <a href="#progetti" class="btn">Vedi i miei lavori</a>
             </div>
         </section>
 
@@ -37,11 +38,10 @@
         <section id="progetti">
             <div class="section-header">
                 <span class="subtitle">Portfolio</span>
-                <h2>> i miei progetti</h2>
+                <h2 class="typing-text">> i miei progetti</h2>
             </div>
             
             <div class="projects-grid">
-                <!-- Card 1 -->
                 <article class="project-card">
                     <div class="card-image">Preview non disponibile.</div>
                     <div class="card-content">
@@ -51,9 +51,10 @@
                     </div>
                 </article>
 
-                <!-- Card 2 -->
                 <article class="project-card">
-                    <div class="card-image">Preview non disponibile.</div>
+                    <div class="card-image">
+                        <img src="./imgs/PyBotnet.png" alt="Preview PyBotnet">
+                    </div>
                     <div class="card-content">
                         <h3>Botnet Framework</h3>
                         <p>PyBotnet is a python based command & control framework for remote bot management. This project provides tools for controlling multiple Python “nodes” from a central controller.
@@ -62,9 +63,10 @@
                     </div>
                 </article>
 
-                <!-- Card 3 -->
                 <article class="project-card">
-                    <div class="card-image">Preview non disponibile.</div>
+                    <div class="card-image">
+                        <img src="./imgs/OllamaWeb.png" alt="Preview OllamaWeb">
+                    </div>
                     <div class="card-content">
                         <h3>OllamaWeb</h3>
                         <p>OllamaWeb is a lightweight web application that provides an easy-to-use interface for interacting with Ollama AI models.</p>
@@ -78,7 +80,7 @@
         <section id="chi-sono">
             <div class="section-header">
                 <span class="subtitle">Competenze</span>
-                <h2>> Stack Tecnologico</h2>
+                <h2 class="typing-text">> Stack Tecnologico</h2>
             </div>
             
             <div class="skills-grid">
@@ -112,6 +114,8 @@
         </footer>
 
     </main>
+
+    <script src="./main.js"></script>
 
 </body>
 </html>
